@@ -4,7 +4,7 @@ This GitHub project provides a deep learning model for accurate pose estimation 
 
 The model estimates the particle orientation vector from the experimental measurements of the three-dimensional Axes-Aligned Bounding Box (AABB) of the oriented axisymmetrical particle. 
 
-![alt text](https://github.com/ddg93/JOposeAABB/main/setup_complete.jpg?raw=true)
+![alt text](https://github.com/ddg93/JOposeAABB/blob/main/setup_complete.jpg?raw=true)
 
 As rendered in panel (a) of Figure 1, the experimental set-up is a linear shear cell where a transparent plastic belt (6) rotates in an infinite loop to shear a viscous fluid confined in a small transparent tank (1). 
 Two perpendicular cameras (7,8) are deployed to measure both particle projections in the x-y and x-z planes, displayed in panel (b).
