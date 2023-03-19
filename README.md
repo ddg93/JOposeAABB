@@ -1,8 +1,8 @@
 # Welcome to the JOposeAABB repository 
 
-This GitHub project provides a deep learning model for accurate pose estimation of cylinders and ellipsoids suspended in a viscous shear flow.
+This GitHub project provides a deep learning model for the pose estimation of cylinders and ellipsoids suspended in a viscous shear flow.
 
-The model estimates the particle orientation vector from the experimental measurements of the three-dimensional Axes-Aligned Bounding Box (AABB) of the oriented axisymmetrical particle. 
+The model estimates the particle orientation vector from the experimental measurements of the three-dimensional Axes-Aligned Bounding Box (AABB, the minimum enclosing parallelepiped that contains the object) of the oriented axisymmetrical particle. 
 
 ![alt text](https://github.com/ddg93/JOposeAABB/blob/main/setup_complete.jpg?raw=true)
 
@@ -15,4 +15,4 @@ The model is designed to be deployed during the post-processing of the experimen
 
 This methodology is applied to reconstruct the Jeffery Orbits (JO) of cylinders and ellipsoids suspended in a simple shear flow, in a viscous regime and when a small inertial effect on the particle becomes relevant.
 
-Run the AABB_poseEstimation.ipynb on Google Colab for a quick demonstration.
+Build, train and run the model on [Google Colab](https://colab.research.google.com/github/ddg93/JOposeAABB/blob/main/AABB_poseEstimation.ipynb) for a quick demonstration.
